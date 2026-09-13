@@ -637,7 +637,7 @@ banking-management-system/
 ## 1️⃣ Clone
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/banking-management-system.git
+git clone https://github.com/waliadhruv1010/banking-management-system.git
 cd banking-management-system
 ```
 
@@ -691,7 +691,7 @@ http://localhost:5173
 
 # 🌐 Deployment
 
-Recommended production architecture:
+The application is deployed as a full-stack cloud application:
 
 ```text
                     GitHub
@@ -703,20 +703,29 @@ Recommended production architecture:
         Spring Boot           React
              │
              ▼
-           MySQL
+        TiDB Cloud
+       MySQL-compatible
 ```
+
+### 🚀 Live Application
+
+**Frontend:** https://banking-management-system-ten-psi.vercel.app/
+
+**Backend API:** https://banking-management-system-l5wo.onrender.com
+
+**Source Code:** https://github.com/waliadhruv1010/banking-management-system
 
 ### Backend
 
-Deploy the Spring Boot API using a cloud platform such as Render.
+The Spring Boot REST API is deployed on Render using Docker.
 
 ### Frontend
 
-Deploy the React/Vite application using Vercel.
+The React/Vite application is deployed on Vercel.
 
 ### Database
 
-Use a managed MySQL deployment or a cloud-hosted MySQL instance.
+The production database is hosted on TiDB Cloud using its MySQL-compatible interface.
 
 ### Production Environment Variables
 
